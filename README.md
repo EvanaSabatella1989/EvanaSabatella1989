@@ -27,6 +27,25 @@ En esta ocasión estoy cursando el Bootcamp de JS de *Undefined Academy*, donde 
 |alias mkdircd='function _mkdircd(){ mkdir -p "$1"; cd "$1"; };_mkdircd'|crea un directorio y accede directamente al directorio creado
 |alias count="find . -type f wc -l"|cuenta los ficheros que contiene un directorio
 
+### Buscar la diferencia entre Terminal Application y Terminal Emulator
+Un emulador de terminal es básicamente una aplicación de terminal que permite al usuario acceder a programas que se desarrollaron originalmente para comunicarse con algún otro tipo de terminal. Simplemente replica la funcionalidad de los terminales informáticos clásicos. Los administradores de sistemas utilizan principalmente emuladores de terminales porque algunos programas de línea de comandos integrados no pueden funcionar por sí solos, por lo que se utilizan emuladores de terminales de terceros para comunicarse con el sistema.
+
+### ¿Por qué mv (mover) se usa para renombrar archivos o carpetas?
+Acrónimo de «mover», el comando mv es uno de los comandos más fáciles de usar. Puede realizar dos tareas básicas pero esenciales al manejar archivos en Linux. Una es mover archivos de una ubicación a otra, y la otra es cambiar el nombre de uno o más archivos a través del terminal.
+* Para mover directorios la sintaxis es: 
+mv directorio ruta_de_destino/nombre_directorio
+El comando mv mueve un directorio o un archivo (lo elimina de su ubicación original y lo "coloca" en una nueva ubicacion).
+Ejemplo mover el directorio img a un nivel por encima sin cambiarle el nombre:
+mv img ../img
+Ejemplo mover el directorio img a la carpeta interna files cambiandole el nombre a images:
+mv img files/images
+* Para renombrar directorios usamos el mismo comando mv, pero no es necesario indicar una nueva ruta para el directorio, solo un nuevo nombre:
+mv directorio directorio_renombrado
+Como vemos basta escribir el nombre del directorio (sin barra al final) y dejando un espacio, el nuevo nombre. Así, si queremos renombrar el directorio img a images lo haríamos así:
+mv img images
+
+Read more: Difference Between Xterm and Terminal | Difference Between http://www.differencebetween.net/technology/difference-between-xterm-and-terminal/#ixzz7vhMT0880
+
 📫 Puedes encontrarme
 * GitHub 🖥️
 * Twitter 🐦
