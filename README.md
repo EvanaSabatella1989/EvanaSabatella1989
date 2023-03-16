@@ -12,20 +12,20 @@ En esta ocasión estoy cursando el Bootcamp de JS de *Undefined Academy*, donde 
 
 ### Comandos de la terminal.
 
-|   Comando   |    Descripción   |
-|-------------|------------------|
+|   Comando   |    Descripción                      |
+|-------------|-------------------------------------|
 |    ls       | Lista el contenido de un directorio |
-|    cd       | Cambia en directorio |
-|    rm       | Elimina archivos o directorios |
-|    mv       | Mueve archivos o directorios   |
-|    date     | Desliega la fecha|
+|    cd       | Cambia en directorio                |
+|    rm       | Elimina archivos o directorios      |
+|    mv       | Mueve archivos o directorios        |
+|    date     | Desliega la fecha                   |
 
 ### Comandos alias para la terminal.
 
-|   Comando   |    Descripción   |
-|-------------|------------------|
-|alias mkdircd='function _mkdircd(){ mkdir -p "$1"; cd "$1"; };_mkdircd'|crea un directorio y accede directamente al directorio creado
-|alias count="find . -type f wc -l"|cuenta los ficheros que contiene un directorio
+|   Comando                                                             |    Descripción                                                  |
+|-----------------------------------------------------------------------|-----------------------------------------------------------------|
+|alias mkdircd='function _mkdircd(){ mkdir -p "$1"; cd "$1"; };_mkdircd'|crea un directorio y accede directamente al directorio creado    |
+|alias count="find . -type f wc -l"                                     |cuenta los ficheros que contiene un directorio                   |
 
 ### Buscar la diferencia entre Terminal Application y Terminal Emulator
 Un emulador de terminal es básicamente una aplicación de terminal que permite al usuario acceder a programas que se desarrollaron originalmente para comunicarse con algún otro tipo de terminal. Simplemente replica la funcionalidad de los terminales informáticos clásicos. Los administradores de sistemas utilizan principalmente emuladores de terminales porque algunos programas de línea de comandos integrados no pueden funcionar por sí solos, por lo que se utilizan emuladores de terminales de terceros para comunicarse con el sistema.
